@@ -7,7 +7,7 @@ const Banner = (props) => {
         <div className="App-banner" style={{backgroundImage: `url(${backImg})`}}>
             <h1>{props.title}</h1>
             <p>{props.description}</p>
-            <button className="App-button">Conoce más</button>
+            <button className="App-button">Ver más</button>
         </div>
     );
 }
