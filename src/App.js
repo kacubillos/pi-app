@@ -1,6 +1,10 @@
 import vueIcon from './images/vue.svg';
 import pythonIcon from './images/python.svg';
 import postgresIcon from './images/postgresql.svg';
+import profile1 from './images/profile1.png'
+import profile2 from './images/profile2.png'
+import profile3 from './images/profile3.png'
+import profile4 from './images/profile4.png'
 import './App.css';
 import Banner from './components/Banner';
 import Card from './components/Card';
@@ -27,10 +31,10 @@ function App() {
         <article className='App-section d-flex-between dark-section'>
           <h2>Integrantes</h2>
           <section className='wrapper'>
-            <CardProfile name="Kevin Cubillos Pinzon" image={vueIcon} />
-            <CardProfile name="Luis Bohorquez Guayara" image={vueIcon} />
-            <CardProfile name="Laura Garcia Salcedo" image={vueIcon} />
-            <CardProfile name="Eduardo Villamizar Sanchez" image={vueIcon} />
+            <CardProfile name="Kevin Cubillos Pinzon" image={profile1} />
+            <CardProfile name="Luis Bohorquez Guayara" image={profile2} />
+            <CardProfile name="Laura Garcia Salcedo" image={profile3} />
+            <CardProfile name="Eduardo Villamizar Sanchez" image={profile4} />
           </section>
         </article>
 
