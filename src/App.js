@@ -20,17 +20,17 @@ function App() {
     <div className="App">
       <NavBar />
       <header className="App-header" id="header">
-        <Banner title="AGROFARM" description="Frase motivadora de la pagina" />
+        <Banner title="AGROFARM" description="Tecnologia para el campo" />
       </header>
       <main>
-        <article className="App-section">
+        <article className="App-section" id="description">
           <h2 className="lg-title">
             ¿Qué puedes hacer en <span className="text-green">Agrofarm</span>?
           </h2>
           <Jumbotron
-            title="Cuida el medio ambiente cu ... 'Terminelo piro'"
+            title="AgroFarm siempre piensa en el campo"
             image={plantIMG}
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a ab veritatis accusamus distinctio, id repudiandae tempora laboriosam, fugiat delectus similique labore dolorem consequuntur aspernatur impedit. Eaque exercitationem provident nam." />
+            content="En AgroFarm siempre podras encontrar concejos para el buen uso de los recursos naturales y el aprovechaiento de estos en los cultivos" />
         </article>
         <article className="App-section" id="tools">
           <h2 className="md-title">Herramientas utilizadas</h2>
